@@ -25,9 +25,9 @@ I am following a structured learning path based on the "OCP Java 21 Study Guide"
 **Goal:** Master the basics of the JDK and the `System` class.
 
 ### Key Learning Objectives:
-- *Difference between `javac` (compiler) and `java` (launcher).
+- Difference between `javac` (compiler) and `java` (launcher).
 - Using JShell for rapid prototyping.
-- *Accessing environment metadata via `System.getProperty()`.
+- Accessing environment metadata via `System.getProperty()`.
 
 ### OCP Exam Insight:
 > In Java 21, the `System.getProperty(String key)` method returns `null` if the key does not exist. It does **not** throw an exception. This is a classic "gotcha" question on the exam.
